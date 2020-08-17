@@ -12,6 +12,7 @@ Hosted at http://3.11.230.121
 * Add monitoring to enable a good view of where potential bottlenecks may be
 
 ### Protect
+* Enable https, LetsEncrypt is free.
 * Ensure security scanning software eg. Checkmarx has been ran against the service.
 * Ensure Content Security Policies has been set correctly and use a library like helmet to help with that.
 * Potentially pentest or run a bug bounty.
