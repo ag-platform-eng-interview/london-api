@@ -1,6 +1,8 @@
 # London API
 London API and TF Deployment
 
+Hosted at http://3.11.230.121
+
 ### Scaling
 * Work with the service provider to check if they could add a new enpoint to allow the radius filtering at their end to significantly reduce the size of the requests.
 * Consider Lambda first as it would fit nicely with our very simple service but a more realistic service may not fit as well.
