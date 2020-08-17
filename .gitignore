@@ -1,0 +1,10 @@
+.deploy.env
+.production.env
+terraform/.terraform/
+terraform/london-api.key
+terraform/london-api.pem
+terraform/terraform.tfvars
+*.tfstate*
+dist/
+**/node_modules/
+yarn-error.log

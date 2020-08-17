@@ -1,0 +1,14 @@
+{
+  "name": "node-deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "node-deploy": "index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.734.0",
+    "date-fns": "^2.15.0",
+    "dotenv": "^8.2.0"
+  }
+}

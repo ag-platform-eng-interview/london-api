@@ -1,0 +1,35 @@
+{
+  "name": "london-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "deploy": "node-deploy $(pwd)",
+    "dev": "nodemon server.js",
+    "linkall": "yarn link node-deploy",
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.1",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "node-deploy": "./node-deploy",
+    "nodemon": "^2.0.4",
+    "sinon": "^9.0.3"
+  }
+}
