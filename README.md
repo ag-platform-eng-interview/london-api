@@ -2,7 +2,7 @@
 London API and TF Deployment
 
 ### Scaling
-* Work with the service provider to check if they could add a new enpoint to allow the radius filtering at there end to significantly reduce the size of the requests.
+* Work with the service provider to check if they could add a new enpoint to allow the radius filtering at their end to significantly reduce the size of the requests.
 * Consider Lambda first as it would fit nicely with our very simple service but a more realistic service may not fit as well.
 * Use CDN, the caching would be a low hanging fruit option for improved throughput.
 * Use Load Balancer and Auto Scaling Group to automatically allow more servers to spin up to handle increased load.
