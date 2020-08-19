@@ -9,7 +9,7 @@
     "dev": "nodemon server.js",
     "linkall": "yarn link node-deploy",
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha src/test/"
   },
   "keywords": [],
   "author": "",

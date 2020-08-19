@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const api = require('./api');
+const api = require('./src/controllers/api');
 
 app.use('/', api);
 

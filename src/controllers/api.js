@@ -1,7 +1,7 @@
 const express = require('express');
 const app = module.exports = express();
 
-const UserService = require('./services/UserService');
+const UserService = require('../services/UserService');
 const userSvc = new UserService();
 
 app.get('/londoners', async (req, res) => {
